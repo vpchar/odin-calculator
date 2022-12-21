@@ -1,0 +1,33 @@
+/* Calculator styles */
+body {
+	color: #666;
+	background-color: #000; padding:0px;
+	-webkit-user-select: none; 
+	overflow: hidden;
+}
+/* remove the blue glow around focused inputs */
+input {
+  outline: none;
+}
+
+#content {
+   
+}
+
+#footer {
+    position: fixed;
+    height: 22px;
+    width: 100%;
+    bottom: 0;
+    border: none;
+	text-align:center;
+}
+
+.footerInputs{
+	border: 1px solid #464646;
+	color:#666;
+	background-color:transparent;
+	height:20px;
+}
+
+.ui-btn>*{padding-left:0px;padding-right:0px;}

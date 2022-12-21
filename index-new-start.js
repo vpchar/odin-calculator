@@ -1,0 +1,1 @@
+window.onload=function(){localStorage["store.settings.themeSelection"]||(localStorage["store.settings.themeSelection"]='"default"');setTheme()};function setTheme(){'"white"'==localStorage["store.settings.themeSelection"]?window.location="index-white.html":'"old"'==localStorage["store.settings.themeSelection"]&&(window.location="index-old.html")};
